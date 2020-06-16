@@ -1,10 +1,10 @@
 package enter;
 import java.util.Scanner;
 
-public class operation {
+public class Operation {
     static Scanner scanner = new Scanner(System.in);
 
-    public operation() {
+    public Operation() {
     }
 
     public static char getOperation(){

@@ -1,7 +1,7 @@
 package enter;
 import java.util.Scanner;
 
-public class numbers {
+public class Numbers {
     static Scanner scanner = new Scanner(System.in);
 
     public static int getInt(){

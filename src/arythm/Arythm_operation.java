@@ -1,8 +1,8 @@
 package arythm;
 
-import static enter.operation.getOperation;
+import static enter.Operation.getOperation;
 
-public class arythm_operation {
+public class Arythm_operation {
 
     public static int calc(int num1, int num2, char operation){
         int result;

@@ -1,17 +1,17 @@
-import arythm.arythm_operation;
-import enter.numbers;
-import welcome.hello;
+import arythm.Arythm_operation;
+import enter.Numbers;
+import welcome.Hello;
 
-import static enter.numbers.getInt;
-import static enter.operation.getOperation;
+import static enter.Numbers.getInt;
+import static enter.Operation.getOperation;
 
 public class Calc {
     public static void main(String[] args) {
-        hello.hello();
-        int num1 = numbers.getInt();
-        int num2 = numbers.getInt();
+        Hello.hello();
+        int num1 = Numbers.getInt();
+        int num2 = Numbers.getInt();
         char operation = getOperation();
-        int result = arythm_operation.calc(num1,num2,operation);
+        int result = Arythm_operation.calc(num1,num2,operation);
         System.out.println("Результат операции: "+result);
     }
 }
